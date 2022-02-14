@@ -1,0 +1,5 @@
+.item {
+    box-shadow: 0 2px 12px rgba(54, 221, 233, 0.5);
+    background-color: white;
+    border-radius: 10px;
+}

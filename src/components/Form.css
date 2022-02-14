@@ -1,0 +1,82 @@
+.item-last {
+    float: right;
+    padding-right: 10%;
+}
+
+.navbar {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar li {
+    display: inline-block;  
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+
+
+.main {
+    background-color: rgba(212, 236, 236, 0.8);
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30%;
+}
+
+.form-control {
+    background-color: aliceblue;
+    width: 50%;
+}
+
+.submain1, .submain2, .submain3 {
+    float: left;
+}
+
+.submain4 {
+    float: right;
+}
+
+.borderbox {
+    clear:right;
+    border: 2px solid green;
+    width: 500px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+.noborderbox {
+    border: 2px solid green;
+    width: 500px;
+    height: 40px;
+    margin: 5px auto;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: bisque;
+}
+
+.image {
+    background: url("../../../../../../../Documents/Mis\ imágenes/MedellinSmall.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+    width: 65%;
+    height: 500px;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: red;
+}
+
+.image1 {
+    background: url("./MedellinSmall.jpg") center/cover fixed no-repeat;
+}
